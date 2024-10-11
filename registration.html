@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <title>Registration</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,60 +48,87 @@
   <div class="banner-contact menu-space">
     <div class="content-grid">
       <div class="contact-text">
-        <h1 class="clr-white">Contact Us</h1>
-        <h4 class="clr-white">Reach US out</h4>
+        <h1 class="clr-white">Registration</h1>
+        <h4 class="clr-white">Certificates</h4>
       </div>
     </div>
   </div>
 
-  <div class="contact-detail">
-    <div class="content-grid">
-      <div class="content-left">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.509918748741!2d144.96305791569855!3d-37.814107979751774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1695474845395!5m2!1sen!2sin"
-          width="600" height="450" style="border:0; " allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="certification-tabs">
+    <div class="nav-content bg-white">
+      <div class="content-grid">
+        <ul class="nav nav-tabs justify-content-between" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link clr-gray txt-standard active" id="register-tab" data-bs-toggle="tab"
+              data-bs-target="#register-tab-pane" type="button" role="tab" aria-controls="register-tab-pane"
+              aria-selected="true">Registration
+              Certificate</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link clr-gray txt-standard" id="supervision-tab" data-bs-toggle="tab"
+              data-bs-target="#supervision-tab-pane" type="button" role="tab" aria-controls="supervision-tab-pane"
+              aria-selected="false">E-Pan Card</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link clr-gray txt-standard" id="contact-tab" data-bs-toggle="tab"
+              data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+              aria-selected="false">MEP Design & Supervision
+              work</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link clr-gray txt-standard" id="soil-tab" data-bs-toggle="tab"
+              data-bs-target="#soil-tab-pane" type="button" role="tab" aria-controls="soil-tab-pane"
+              aria-selected="false">Soil Testing</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link clr-gray txt-standard" id="pilling-tab" data-bs-toggle="tab"
+              data-bs-target="#pilling-tab-pane" type="button" role="tab" aria-controls="pilling-tab-pane"
+              aria-selected="false">Piling Work</button>
+          </li>
+
+        </ul>
       </div>
-      <div class="content-right">
-        <div class="contact-description d-flex">
-          <div class="contact-img">
-            <img src="assets/images/contact/location.svg" alt="">
+    </div>
+    <div class="tabs-bg bg-clr">
+      <div class="content-grid">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="register-tab-pane" role="tabpanel" aria-labelledby="register-tab"
+            tabindex="0">
+            <div class="certification-img d-flex justify-content-lg-between">
+              <div class="certificates">
+                <img class="img-fluid" src="assets/images/registration/certificate-1.png" alt="">
+              </div>
+              <div class="certificates">
+                <img class="img-fluid" src="assets/images/registration/certificate-2.png" alt="">
+              </div>
+              <div class="certificates">
+                <img class="img-fluid" src="assets/images/registration/certificate-3.png" alt="">
+              </div>
+            </div>
           </div>
-          <div class="contact-content">
-            <h3 class="clr-black">Office Address:</h3>
-            <p class="txt-large clr-black"> Shop No - A/203 Sai sudarshan , Opp Vini Residency,
-              Hanum Nagar, Nalasopara (w), Palghar - 410105.
-            </p>
+          <div class="tab-pane fade" id="supervision-tab-pane" role="tabpanel" aria-labelledby="supervision-tab"
+            tabindex="0">b
           </div>
-        </div>
-        <div class="contact-description d-flex">
-          <div class="contact-img">
-            <img src="assets/images/contact/email.svg" alt="">
+          <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            ...
           </div>
-          <div class="contact-content">
-            <h3 class="clr-black">Email Address:</h3>
-            <p class="txt-large clr-black">Bharatengineering.construction@gmail.com
-            </p>
+          <div class="tab-pane fade" id="soil-tab-pane" role="tabpanel" aria-labelledby="soil-tab" tabindex="0">...
           </div>
-        </div>
-        <div class="contact-description d-flex">
-          <div class="contact-img">
-            <img src="assets/images/contact/contact.svg" alt="">
-          </div>
-          <div class="contact-content">
-            <h3 class="clr-black">Contact Details:</h3>
-            <p class="txt-large clr-black"> 8237324024 / 8788702262
-            </p>
+          <div class="tab-pane fade" id="pilling-tab-pane" role="tabpanel" aria-labelledby="pilling-tab" tabindex="0">
+            ...
           </div>
         </div>
       </div>
     </div>
+
+
   </div>
+
 
   <div class="grow-section">
     <div class="grow-content">
       <p class="large-text clr-white-variant mb-24">Ready to let us help you grow your Industry? </p>
-      <p class="clr-faint-white text-large mb-32">Lorem ipsum dolor sit amet consectetur. Interdum in faucibus in
+      <p class="clr-faint-white txt-large mb-32">Lorem ipsum dolor sit amet consectetur. Interdum in faucibus in
         varius. Amet
         risus
         vitae quis pretium ac
@@ -163,7 +190,9 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 </html>

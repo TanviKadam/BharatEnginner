@@ -1,14 +1,156 @@
-@media(min-width:320px) and (max-width:767px) {}
+@media(min-width:320px) and (max-width:767px) {
 
-@media(min-width:768px) and (max-width:1023px) {}
+  .footer-wrapper {
+    grid-template-columns: 1fr;
+  }
 
-@media(min-width:1024px) and (max-width:1200px) {}
+  .contact-detail .content-grid {
+    grid-template-columns: 1fr;
+  }
 
-@media(min-width:1201px) and (max-width:1366px) {}
+  .contact-detail iframe {
+    width: 300px !important;
+  }
 
-@media(min-width:1367px) and (max-width:1440px) {}
+  .contact-description {
+    flex-direction: column;
+  }
 
-@media(min-width:1401px) and (max-width:1600px) {}
+  .grow-content {
+    width: 100%;
+  }
+
+  header .content-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .contact-detail {
+    padding: 40px 24px;
+  }
+
+  .txt-large {
+    font-size: 16px;
+  }
+
+  .contact-description h3 {
+    font-size: 20px;
+  }
+
+  .certification-img {
+    flex-direction: column;
+  }
+
+  .banner-contact,
+  .contact-text {
+    height: 300px;
+  }
+
+  .contruction-cards {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+
+  .work-detail-section .main-work-section {
+    flex-direction: column;
+  }
+
+  .renewable-section .d-flex {
+    flex-direction: column;
+  }
+
+  .renewable-section .w-50 {
+    width: 100% !important;
+  }
+}
+
+@media(min-width:768px) and (max-width:1023px) {
+  .contact-detail .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-detail iframe {
+    width: 100% !important;
+  }
+
+  .contact-detail .content-right {
+    padding-left: 0;
+    margin-top: 24px;
+  }
+
+  header .content-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media(min-width:1024px) and (max-width:1200px) {
+  .contact-detail .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-detail iframe {
+    width: 100% !important;
+  }
+
+  .contact-detail .content-right {
+    padding-left: 0;
+    margin-top: 24px;
+  }
+
+  .contact-detail {
+    padding: 80px 0;
+  }
+
+  /* .responsive .slick-slide {
+    float: left;
+    width: calc(100% / 4);
+  } */
+
+  .valuable-client .client-images img {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+
+  .constructions-wrapper .card-content {
+    padding: 90px 40px;
+  }
+}
+
+
+@media(min-width:1201px) and (max-width:1366px) {
+  .valuable-client {
+    /* padding-bottom: 0; */
+  }
+
+  .valuable-client .client-images img {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+@media(min-width:1367px) and (max-width:1440px) {
+  .valuable-client {
+    /* padding-bottom: 0; */
+  }
+}
+
+@media(min-width:1401px) and (max-width:1600px) {
+  .contact-description .contact-img img {
+    height: 100px;
+    width: 100px;
+  }
+
+  /* .client-wrapper .client-images {
+    float: left;
+    width: calc(100% / 3);
+  } */
+
+  .valuable-client .client-images img {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
 
 @media(min-width:1601px) and (max-width:1921px) {
   .content-grid {
