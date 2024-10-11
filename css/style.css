@@ -290,7 +290,7 @@ span.underline-block::after {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  width: 900px !important;
+  /* width: 900px !important; */
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -303,4 +303,13 @@ span.underline-block::after {
 
 .banner-content ul {
   list-style: decimal;
+}
+
+.valuable-client {
+  position: relative;
+}
+
+.gallery-slider .carousel-control-next,
+.gallery-slider .carousel-control-prev {
+  top: -120%;
 }
