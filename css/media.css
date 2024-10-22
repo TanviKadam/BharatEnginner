@@ -1,5 +1,104 @@
 @media(min-width:320px) and (max-width:767px) {
 
+  h1,
+  .h1 {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 84px;
+    /* 120% */
+    text-transform: capitalize;
+  }
+
+  h2,
+  .h2 {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    /* 126.087% */
+    text-transform: capitalize;
+  }
+
+  h3,
+  .h3 {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    /* 156.25% */
+    text-transform: capitalize;
+  }
+
+  h4,
+  .h4 {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .large-text {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60.48px;
+    font-family: var(--primary-font);
+
+  }
+
+  .txt-large {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 27px;
+    /* 150% */
+  }
+
+  /* P/16px (Standard) */
+  .txt-standard {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 30px;
+    /* 187.5% */
+  }
+
+  .txt-button {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  /* P/16px (Hyperlink) */
+  .txt-hyperlink {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 30px;
+    /* 187.5% */
+    text-decoration-line: underline;
+  }
+
+  /* --*--*-- End Typography --*--*-- */
+
   .footer-wrapper {
     grid-template-columns: 1fr;
   }
@@ -39,6 +138,10 @@
 
   .certification-img {
     flex-direction: column;
+  }
+
+  .tabs-bg .tab-content-section .main-tab {
+    width: 100%;
   }
 
   .banner-contact,
