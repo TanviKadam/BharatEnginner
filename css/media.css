@@ -308,6 +308,10 @@
     width: 100px;
   }
 
+  .tabs-bg .tab-content-section .main-tab {
+    width: 370px;
+  }
+
   /* .client-wrapper .client-images {
     float: left;
     width: calc(100% / 3);
