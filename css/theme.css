@@ -239,9 +239,10 @@ h4,
 
 .btn-primary {
   background: var(--clr-primary-100);
-  border: 1px solid var(--black);
+  border: 1px solid var(--clr-primary-100);
   border-radius: 4px;
   box-shadow: 0px 0px 0px 0px #000;
+  color: var(--white);
 
   display: flex;
   padding: 14px 40px;
@@ -356,6 +357,21 @@ h4,
   margin-bottom: 32px
 }
 
+.mt-48 {
+  margin-top: 48px
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mt-80 {
+  margin-top: 80px
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
 /* margin */
 
 /* --*--*-- End Utilities --*--*-- */
@@ -453,3 +469,23 @@ footer .services-list .footer-service {
 }
 
 /* Help Section */
+
+.table thead tr th {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  /* 150% */
+}
+
+.table tbody tr td {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+}
