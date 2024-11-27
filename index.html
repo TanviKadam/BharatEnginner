@@ -308,7 +308,7 @@
         vitae quis pretium ac
         fringilla justo vulputate. Quis nunc mauris euismod ultrices.</p>
       <div class="contact-btn d-flex justify-content-center">
-        <button class="btn-secondary">Contact us</button>
+        <a href="contact.html"> <button class="btn-secondary">Contact us</button></a>
       </div>
     </div>
   </div>
@@ -374,14 +374,16 @@
   $(document).ready(function () {
     $('.responsive').slick({
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       arrow: false,
       slidesToShow: 7,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1,
+      speed: 2000,
       lazyLoad: 'ondemand',
+      centerMode: true,
       responsive: [
         {
           breakpoint: 1024,
@@ -416,7 +418,7 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1000,
       lazyLoad: 'ondemand',
       centerMode: true,
       centerPadding: '60px',
