@@ -146,8 +146,8 @@ body {
 }
 
 .copyright{
-  width:26%;
-  height:10%;
+  width:462px;
+  height:23px;
   margin-left:38%;
 }
 
@@ -354,3 +354,52 @@ span.underline-block::after {
   height: 36px;
   margin-bottom: 16px;
 }
+
+/* animations */
+/* Base animation styles */
+.animate-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+/* Delays for staggered animations */
+.delay-0 {
+  animation-delay: 0s;
+}
+.delay-1 {
+  animation-delay: 0.4s;
+}
+.delay-2 {
+  animation-delay: 0.6s;
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px); /* Start slightly below */
+  animation: fadeUp 0.8s ease-out forwards; /* Trigger animation on page load */
+  animation-delay: 0.2s; /* Optional delay */
+}
+contruction-card-wrapper {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0.8;
+  transform: translateY(30px);
+}
+
+/* Hover state */
+.contruction-card-wrapper:hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Keyframes for fade-up animation */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* animations ended */
